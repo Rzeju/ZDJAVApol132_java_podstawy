@@ -13,6 +13,8 @@ public class Movie {
 
     }
 
+    public static int someInt = 10;
+
     //metoda wypisująca napis i wartośc pola
     public void play() {
         System.out.println("Displaying film -> " + title);
@@ -48,5 +50,9 @@ public class Movie {
     //metoda (getter, pobiera wartośc danego pola)
     public int getProductionYear() {
         return this.productionYear;
+    }
+
+    public int getSomeInt() {
+        return someInt;
     }
 }

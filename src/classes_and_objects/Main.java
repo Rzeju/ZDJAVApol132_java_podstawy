@@ -63,6 +63,24 @@ public class Main {
         System.out.println(movieTitle);
 
 
+        double pi = Math.PI;
+
+        System.out.println("Przykład zmiennej statycznej");
+
+        //Wyświetlenie wartości zmiennej statycznej dla klasy i obiektów
+        System.out.println("Wartość z klasy = " + Movie.someInt);
+        System.out.println("Wartość z obiektu = " + movie.getSomeInt());
+        System.out.println("Wartość z obiektu2 = " + movie2.getSomeInt());
+
+        //Zmiana wartości zmiennej statycznej
+        Movie.someInt = 100;
+
+        //Wyświetlenie zmienionej wartości zmiennej statycznej dla klasy i obiektów
+        System.out.println("Wartość z klasy = " + Movie.someInt);
+        System.out.println("Wartość z obiektu = " + movie.getSomeInt());
+        System.out.println("Wartość z obiektu2 = " + movie2.getSomeInt());
+
+
 
 
 
