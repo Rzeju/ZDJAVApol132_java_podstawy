@@ -11,13 +11,14 @@ public class Movie {
     private String description;
     private int productionYear;
 
-    //konstruktor bezargumentowy (tworzy obiekty tej klasy
+    //konstruktor parametryzowany
     public Movie(String title, String description, int productionYear) {
         this.title = title;
         this.description = description;
         this.productionYear = productionYear;
     }
 
+    //konstruktor bezargumentowy (tworzy obiekty tej klasy
     public Movie() {
 
     }
