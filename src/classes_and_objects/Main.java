@@ -1,5 +1,7 @@
 package classes_and_objects;
 
+import java.sql.SQLOutput;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -33,6 +35,33 @@ public class Main {
         //Ponowne ustawienie wartości pola productionYear
         movie.setProductionYear(1979);
         movie.play();
+
+        System.out.println("Wywołanie getterów");
+        //wywołanie getterów i wyświetlenie danych
+        System.out.println(movie.getTitle());
+        System.out.println(movie.getDescription());
+        System.out.println(movie.getProductionYear());
+
+
+
+        //INNY PRZYKŁAD NE GET I SET
+        System.out.println("ODDZIELNY PRZYKLAD NA GETTER I SETTER");
+        //Utworzenie obiektu
+        Movie movie2 = new Movie();
+
+        //Pobiera wartosc pola title
+        String movieTitle = movie2.getTitle();
+        System.out.println(movieTitle);
+
+        movie2.setTitle("Some movie");
+
+        movieTitle = movie2.getTitle();
+        System.out.println(movieTitle);
+
+        movie2.setTitle("New title");
+        movieTitle = movie2.getTitle();
+        System.out.println(movieTitle);
+
 
 
 

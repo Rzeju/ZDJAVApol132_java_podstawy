@@ -34,4 +34,19 @@ public class Movie {
     public void setProductionYear(int productionYear) {
         this.productionYear = productionYear;
     }
+
+    //metoda (getter, pobiera wartośc danego pola)
+    public String getTitle() {
+        return this.title;
+    }
+
+    //metoda (getter, pobiera wartośc danego pola)
+    public String getDescription() {
+        return this.description;
+    }
+
+    //metoda (getter, pobiera wartośc danego pola)
+    public int getProductionYear() {
+        return this.productionYear;
+    }
 }
