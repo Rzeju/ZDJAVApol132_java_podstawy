@@ -3,17 +3,24 @@ package classes_and_objects;
 //nazwa klasy
 public class Movie {
 
+    //ZMIENNE statyczne
+    public static int someInt = 10;
+
     //pola klasy (dane które opisują obiekty tej klasy)
     private String title;
     private String description;
     private int productionYear;
 
     //konstruktor bezargumentowy (tworzy obiekty tej klasy
+    public Movie(String title, String description, int productionYear) {
+        this.title = title;
+        this.description = description;
+        this.productionYear = productionYear;
+    }
+
     public Movie() {
 
     }
-
-    public static int someInt = 10;
 
     //metoda wypisująca napis i wartośc pola
     public void play() {

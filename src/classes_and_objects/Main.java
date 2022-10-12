@@ -81,6 +81,14 @@ public class Main {
         System.out.println("Wartość z obiektu2 = " + movie2.getSomeInt());
 
 
+        ///UŻYCIE KONSTRUKTORA PARAMETRYZOWANEGO
+        System.out.println("Wypisanie danych z obiektu tworzonego przez konstruktor parametryzowany");
+        Movie movie3 = new Movie("Star Wars 3", "Miecze świetlne brzrzzrrz", 2015);
+        System.out.println(movie3.getTitle());
+        System.out.println(movie3.getDescription());
+        System.out.println(movie3.getProductionYear());
+
+
 
 
 
