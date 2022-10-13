@@ -24,5 +24,9 @@ public class Main {
         somePerson.setAge(99);
         somePerson.setHeight(180);
         System.out.println(somePerson.toString());
+
+        //somePerson.testMethod();
+        somePerson.setAge(100);
+        somePerson.testMethod();
     }
 }

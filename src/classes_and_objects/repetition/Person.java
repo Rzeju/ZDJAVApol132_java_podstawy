@@ -59,4 +59,11 @@ public class Person {
                 ", height=" + height +
                 '}';
     }
+
+    public void testMethod() {
+        if (this.age % 2 == 0) {
+            return;
+        }
+        System.out.println("Return się nie wykonał");
+    }
 }
