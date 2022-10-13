@@ -87,11 +87,5 @@ public class Main {
         System.out.println(movie3.getTitle());
         System.out.println(movie3.getDescription());
         System.out.println(movie3.getProductionYear());
-
-
-
-
-
-
     }
 }
