@@ -14,7 +14,6 @@ public class Main {
 
         System.out.println(me.getFirstName());
 
-
         System.out.println(me.toString());
 
         Person somePerson = new Person();
