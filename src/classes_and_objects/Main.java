@@ -1,7 +1,5 @@
 package classes_and_objects;
 
-import java.sql.SQLOutput;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -53,22 +51,29 @@ public class Main {
         String movieTitle = movie2.getTitle();
         System.out.println(movieTitle);
 
+        //Ustawia wartość pola title dla obiektu movie2
         movie2.setTitle("Some movie");
 
+        //Pobranie wartości pola title z obiektu movie2
         movieTitle = movie2.getTitle();
         System.out.println(movieTitle);
 
+        //Ustawia nową wartość pola title dla obiektu movie2
         movie2.setTitle("New title");
+        //Pobranie nowej wartości pola title z obiektu movie2
         movieTitle = movie2.getTitle();
         System.out.println(movieTitle);
 
-
-        double pi = Math.PI;
 
         System.out.println("Przykład zmiennej statycznej");
 
         //Wyświetlenie wartości zmiennej statycznej dla klasy i obiektów
+        //Zmienna statyczna jest taka sama dla każdego obiektu
+        //Nazywamy ją zmienną klasową
+        //Nie trzeba tworzyć obiektu aby się do niej odwołać (jak poniżej)
         System.out.println("Wartość z klasy = " + Movie.someInt);
+        //Wywołanie metody z dostępem do zmiennej statycznej na rzecz dwóch obiektów
+        //Wartość jets taka sama w każdym przypadku
         System.out.println("Wartość z obiektu = " + movie.getSomeInt());
         System.out.println("Wartość z obiektu2 = " + movie2.getSomeInt());
 
@@ -81,7 +86,7 @@ public class Main {
         System.out.println("Wartość z obiektu2 = " + movie2.getSomeInt());
 
 
-        ///UŻYCIE KONSTRUKTORA PARAMETRYZOWANEGO
+        ///UŻYCIE KONSTRUKTORA PARAMETRYZOWANEGO i wyświetlenie pól obiektu
         System.out.println("Wypisanie danych z obiektu tworzonego przez konstruktor parametryzowany");
         Movie movie3 = new Movie("Star Wars 3", "Miecze świetlne brzrzzrrz", 2015);
         System.out.println(movie3.getTitle());

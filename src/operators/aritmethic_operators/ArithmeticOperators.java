@@ -3,10 +3,12 @@ package operators.aritmethic_operators;
 public class ArithmeticOperators {
 
     public static void main(String[] args) {
+        //Zmienne pomocnicze
         int a = 5;
         int b = 10;
         int c = 0;
 
+        //Przykłady działań matematycznych i wydruk wyników na ekran
         c = a + b;
         System.out.println("Wynik dodawania: " + c);
 

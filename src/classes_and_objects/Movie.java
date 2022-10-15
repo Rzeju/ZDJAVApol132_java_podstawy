@@ -3,7 +3,7 @@ package classes_and_objects;
 //nazwa klasy
 public class Movie {
 
-    //ZMIENNE statyczne
+    //ZMIENNA statyczne
     public static int someInt = 10;
 
     //pola klasy (dane które opisują obiekty tej klasy)
@@ -30,36 +30,37 @@ public class Movie {
         System.out.println("Year of production -> " + productionYear);
     }
 
-    //metoda (setter, ustawia wartośc pola obiektu na wartośc przekazaną w argumencie metody)
+    //metoda (setter, ustawia wartośc pola title na wartośc przekazaną w argumencie metody)
     public void setTitle(String title) {
         this.title = title;
     }
 
-    //metoda (setter, ustawia wartośc pola obiektu na wartośc przekazaną w argumencie metody)
+    //metoda (setter, ustawia wartośc pola description na wartośc przekazaną w argumencie metody)
     public void setDescription(String description) {
         this.description = description;
     }
 
-    //metoda (setter, ustawia wartośc pola obiektu na wartośc przekazaną w argumencie metody)
+    //metoda (setter, ustawia wartośc pola productionYear na wartośc przekazaną w argumencie metody)
     public void setProductionYear(int productionYear) {
         this.productionYear = productionYear;
     }
 
-    //metoda (getter, pobiera wartośc danego pola)
+    //metoda (getter, pobiera wartośc pola title)
     public String getTitle() {
         return this.title;
     }
 
-    //metoda (getter, pobiera wartośc danego pola)
+    //metoda (getter, pobiera wartośc pola description)
     public String getDescription() {
         return this.description;
     }
 
-    //metoda (getter, pobiera wartośc danego pola)
+    //metoda (getter, pobiera wartośc pola productionYear)
     public int getProductionYear() {
         return this.productionYear;
     }
 
+    //metoda (getter, pobiera wartośc pola someInt)
     public int getSomeInt() {
         return someInt;
     }
