@@ -15,6 +15,9 @@ public class ForExample {
         System.out.println(" ");
 
         //Zmienna pomocnicza
+        //Służy nam do przetrzymywania sumy dodawanych liczb (gdzieś ta suma musi być trzymana jeśli chcemy jej potem użyć)
+        //Zadeklrarowano ją przed pętlą for aby była dostępna później w Sysytem.out.println
+        //Zmienne zadeklarowana wewnątrz pętli nie są dostepne poza pętlą (zasięg zmiennych)
         int result = 0;
         System.out.println("Przykład pętli wykonującej się 10 razy i dodającej kolejne i do siebie");
         //Przykład pętli for z dodawaniem do siebie kolejnych wartości i
