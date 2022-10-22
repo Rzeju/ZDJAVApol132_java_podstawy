@@ -81,6 +81,11 @@ public class TwoDimensionArray {
         String[] array_1 = {"Stirng_1", "String_2", "String_3"};
         String[] array_2 = {"Stirng_4", "String_5", "String_6", "String_7"};
 
+        //Wyświetlenie referencji do utworzonych tablic
+        System.out.println("Wyświetlenie referencji utworzonych tablic array_1 i array_2");
+        System.out.println(array_1);
+        System.out.println(array_2);
+
         // Przypisanie utworzonych tablic do wierszy tablicy 2D string2DArray_1
         System.out.println("Przypisanie do wierszy tablicy 2D string2DArray_1 tablic array_1 oraz array_2");
         string2DArray_1[0] = array_1;
