@@ -6,9 +6,10 @@ public class MyOuterClass {
     //Każdy obiekt bedzie posiadał swoje pole 'outerNumber'
     private int outerNumber = 5;
 
-    //DODATKOWE POLEDO PRZYKŁADU
+    //DODATKOWE POLE DO PRZYKŁADU
     private int extraNumber;
 
+    //Konstruktor bez parametru (domyślny)
     public MyOuterClass() {
 
     }
@@ -27,16 +28,13 @@ public class MyOuterClass {
     }
 
     //Metoda klasy zewnętrznej('MyOuterClass') zwracająca obiekt klasy wewnętrznej('MyInnerClass')
-    //
     public MyInnerClass init() {
         return new MyInnerClass();
     }
 
     //KOD DO DODATKOWEGO PRZYKŁADU
-
+    //Konstruktor z argumentem
     public MyOuterClass(int extraNumber) {
         this.extraNumber = extraNumber;
     }
-
-
 }
