@@ -29,5 +29,12 @@ public class LocalTimeExample {
         System.out.println("Minuta ->" + localTime.getMinute());
         System.out.println("Sekunda -> " + localTime.getSecond());
 
+        //Utworzenie obiektu klasy LocalTime metodą statyczną 'now()'
+        LocalTime now = LocalTime.now();
+        //Utworzenie obiektu typu String (połączenie ze sobą kilku elementów)
+        String formattedTime = now.getHour() + ":" + now.getMinute() + ":" + now.getSecond();
+        //Wyświetlenie zmiennej
+        System.out.println(formattedTime);
+
     }
 }
