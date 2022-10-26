@@ -21,5 +21,41 @@ public class User {
         this.emailAddress = emailAddress;
     }
 
+    //getter dla pola login
+    //zwraca wartośc pola login
+    public String getLogin() {
+        return login;
+    }
+
+    //getter dla pola password
+    //zwraca wartośc pola password
+    public String getPassword() {
+        return password;
+    }
+
+    //getter dla pola emailAddress
+    //zwraca wartośc pola emailAddress
+    public String getEmailAddress() {
+        return emailAddress;
+    }
+
+    //setter dla pola login
+    //ustawia przekazaną wartość w polu login
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    //setter dla pola password
+    //ustawia przekazaną wartość w polu password
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    //setter dla pola emailAddress
+    //ustawia przekazaną wartość w polu emailAddress
+    public void setEmailAddress(String emailAddress) {
+        this.emailAddress = emailAddress;
+    }
+
 
 }
